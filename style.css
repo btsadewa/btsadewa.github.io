@@ -1,0 +1,156 @@
+:root {
+  --mainColor: #252734;
+  --secondaryColor: #333646;
+  --acsentsColor: #ff9100;
+}
+
+body {
+  background-color: var(--mainColor);
+}
+
+.navbar a:hover {
+  color: #ff9100 !important;
+}
+
+#hero .icon svg {
+  cursor: pointer;
+}
+
+#hero .icon a {
+  text-decoration: none;
+  color: white;
+}
+.navdark {
+  background-color: var(--secondaryColor);
+  transition: 0.8s;
+}
+
+#hero {
+  color: white;
+  padding-top: 50px;
+}
+
+#hero h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#hero h1 {
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+#hero p {
+  color: var(--acsentsColor);
+}
+
+#hero .icon svg {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#hero img {
+  border-radius: 40px;
+}
+
+#about {
+  width: 100%;
+  color: white;
+  background-color: var(--secondaryColor);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: px;
+  min-height: 300px;
+}
+
+#about .judul {
+  color: #ff9100;
+}
+
+#about hr {
+  width: 80%;
+  height: 2px;
+  color: #ff9100;
+  opacity: 100%;
+  margin: 0 auto;
+}
+
+#project {
+  margin-bottom: px;
+}
+
+#project p {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#project hr {
+  color: #ff9100;
+  height: 2px;
+  width: 85%;
+  opacity: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#project img {
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+#project h6 {
+  color: white;
+  margin-top: 20px;
+}
+
+#skill {
+  background-color: var(--secondaryColor);
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+#skill p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#skill hr {
+  margin: 0 auto;
+  color: #ff9100;
+  width: 85%;
+  height: 2px;
+  opacity: 100%;
+}
+
+#skill img {
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+#contact {
+  color: white;
+  padding: 20px;
+}
+
+#contact p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#contact hr {
+  margin: 0 auto;
+  color: #ff9100;
+  width: 73%;
+  height: 2px;
+  opacity: 100%;
+}
+
+#footer {
+  color: white;
+  background-color: var(--secondaryColor);
+}
+
+#footer p {
+  font-weight: bold;
+}

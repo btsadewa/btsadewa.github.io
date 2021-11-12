@@ -1,0 +1,152 @@
+/* xl */
+@media screen and (max-width: 1200px) {
+  #hero p {
+    font-size: 0.8rem !important;
+  }
+
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #project img {
+    width: 90px !important;
+  }
+}
+
+/* large */
+@media screen and (max-width: 992px) {
+  #hero h1 {
+    font-size: 1.9rem;
+  }
+  #about p {
+    font-size: 0.9rem !important;
+  }
+
+  #project img {
+    width: 100px !important;
+  }
+}
+
+/* medium */
+@media screen and (max-width: 768px) {
+  #hero img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  #project img {
+    width: 60px !important;
+  }
+
+  #skill img {
+    width: 100px !important;
+  }
+
+  #skill .css {
+    width: 65px !important;
+  }
+
+  #skill .office {
+    width: 140px !important;
+  }
+}
+
+/* small */
+@media screen and (max-width: 576px) {
+  #hero img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+
+  #hero p {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #skill img {
+    width: 75px !important;
+  }
+
+  #skill .css {
+    width: 50px !important;
+  }
+
+  #skill .office {
+    width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #skill img {
+    width: 70px !important;
+  }
+
+  #skill .css {
+    width: 45px !important;
+  }
+
+  #skill .office {
+    width: 110px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #skill img {
+    width: 60px !important;
+  }
+
+  #skill .css {
+    width: 40px !important;
+  }
+
+  #skill .office {
+    width: 110px !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #footer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 344px) {
+  #footer p {
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  #skill img {
+    width: 55px !important;
+  }
+
+  #skill .css {
+    width: 35px !important;
+  }
+
+  #skill .office {
+    width: 110px !important;
+  }
+}
+
+/* small */
+@media screen and (max-width: 350px) {
+  #skill img {
+    width: 75px !important;
+  }
+
+  #skill .css {
+    width: 50px !important;
+  }
+
+  #skill .office {
+    width: 100px !important;
+  }
+}
