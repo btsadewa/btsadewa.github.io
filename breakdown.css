@@ -11,6 +11,10 @@
   #project img {
     width: 90px !important;
   }
+
+  #sertif img {
+    width: 300px !important;
+  }
 }
 
 /* large */
@@ -25,6 +29,10 @@
   #project img {
     width: 100px !important;
   }
+
+  #sertif img {
+    width: 250px !important;
+  }  
 }
 
 /* medium */
@@ -35,7 +43,7 @@
   }
 
   #project img {
-    width: 60px !important;
+    width: 90px !important;
   }
 
   #skill img {
@@ -149,4 +157,27 @@
   #skill .office {
     width: 100px !important;
   }
+}
+
+@media screen and (max-width : 390px) {
+    #project img {
+      width: 75px !important;
+    }
+}
+
+@media screen and (max-width: 346px) {
+  #project img {
+    width: 70px !important;
+  }
+}
+
+@media screen and (max-width : 592px) {
+  #sertif img {
+    margin-top: 8px;
+  }
+}
+@media screen and (max-width : 330px) {
+   #project img {
+      width: 60px !important;
+   } 
 }

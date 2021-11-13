@@ -8,6 +8,14 @@ body {
   background-color: var(--mainColor);
 }
 
+hr {
+  width: 80%;
+  height: 2px;
+  color: #ff9100;
+  opacity: 100%;
+  margin: 0 auto;
+}
+
 .navbar a:hover {
   color: #ff9100 !important;
 }
@@ -63,35 +71,35 @@ body {
   min-height: 300px;
 }
 
+#about h1 {
+  font-weight: 700;
+}
+
 #about .judul {
   color: #ff9100;
 }
 
-#about hr {
-  width: 80%;
-  height: 2px;
-  color: #ff9100;
-  opacity: 100%;
-  margin: 0 auto;
+#sertif {
+  background-color: var(--mainColor);
+  color: white;
+  padding: 20px;
+}
+
+#sertif p {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 #project {
   margin-bottom: px;
+  background-color: #333646;
+  padding: 20px;
 }
 
 #project p {
   color: white;
   font-size: 2rem;
   font-weight: 700;
-}
-
-#project hr {
-  color: #ff9100;
-  height: 2px;
-  width: 85%;
-  opacity: 100%;
-  margin: 0 auto;
-  margin-bottom: 20px;
 }
 
 #project img {
@@ -105,7 +113,7 @@ body {
 }
 
 #skill {
-  background-color: var(--secondaryColor);
+  background-color: var(--mainColor);
   padding: 20px;
   padding-bottom: 30px;
 }
@@ -115,13 +123,6 @@ body {
   font-weight: bold;
 }
 
-#skill hr {
-  margin: 0 auto;
-  color: #ff9100;
-  width: 85%;
-  height: 2px;
-  opacity: 100%;
-}
 
 #skill img {
   border-radius: 40px;
@@ -131,6 +132,7 @@ body {
 #contact {
   color: white;
   padding: 20px;
+  background-color: var(--secondaryColor);
 }
 
 #contact p {
@@ -138,17 +140,9 @@ body {
   font-weight: bold;
 }
 
-#contact hr {
-  margin: 0 auto;
-  color: #ff9100;
-  width: 73%;
-  height: 2px;
-  opacity: 100%;
-}
-
 #footer {
   color: white;
-  background-color: var(--secondaryColor);
+  background-color: var(--mainColor);
 }
 
 #footer p {
