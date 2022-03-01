@@ -181,18 +181,21 @@
         </div>
         <div class="row justify-content-center mt-5">
           <div class="col-lg-8 col-md-10">
-            <form>
+            <form action="https://formsubmit.co/bsadewa603@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="New Message !">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_captcha" value="false">
               <div class="mb-3">
                 <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="nama" aria-describedby="nama" placeholder="Input Your Name" />
+                <input type="text" class="form-control" id="nama" aria-describedby="nama" placeholder="Input Your Name" name="name" required />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Input Your Email" />
+                <input type="email" class="form-control" id="email" placeholder="Input Your Email" name="email" required />
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Input Your Comment"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Input Your Comment" name="message" required></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
